@@ -1,0 +1,85 @@
+Here is an explanation for each input file :
+Care of the letter case in the files if you change the name of a technology.
+
+annuities_elec_new :
+    Domain : All Technologies (tec).
+    Annualized power capex cost in M€/GW/year
+    Coût d'investissement annualisé proportionnel à la puissance en M€/GW/an
+
+capa_bounds :
+    Domain : All Technologies (tec).
+    Maximum capacity installed for all technologies in GW
+    Maximum des capacités installées pour chaque technologies en GW
+
+capacity_ex :
+    Domain : Storage Technologies (str).
+    Existing storage capacity in GWh
+    Capacités de stockage existantes en GWh
+
+demand2050_RTE :
+    Domain : All hours in the model (h).
+    Demand profile in each hour in GW
+    Demande prévue par le Réseau de Transport d'Electricité pour l'année 2050 en GWh
+
+eta_in :
+    Domain : Storage Technologies (str).
+    Charging efficiency of storage technologies
+    Efficacité de charge des technologies de stockage (entre 0 et 1)
+
+
+eta_out : 
+    Domain : Storage Technologies (str).
+    Discharging efficiency of storage technologies
+    Efficacité de décharge des technologies de stockage (entre 0 et 1)
+
+existing_capas_elec_new :
+    Domain : All Technologies (tec).
+    Existing capacities of the technologies by December 2017 in GW
+    Capacités existantes des différentes technologies en Décembre 2017 en GW 
+
+fO&M_elec_new :
+    Domain : All Technologies (tec).
+    Annualized fixed operation and maintenance costs M€/GW/year
+    Coûts fixes de maintenance et d'exploitation sur une année en M€/GW/an
+
+lake2006 :
+    Domain : Month in the model (month).
+    Monthly lake inflows in GWh
+    Electricité issue des lacs par mois en 2006 en GWh
+
+max_capac_elec_new : 
+    Domain : Variable renewable energies (vre).
+    Maximum capacities of the technologies in GW
+    Capacités maximum des technologies en GW
+
+miscellaneous :
+    Scalar Parameters and first day of the electricity demand time series
+    Paramêtres scalaires et date de début de la chornique de demande d'électricité
+
+reserve_requirements_new :
+    Domain : Variable renewable energies (vre).
+    Additional FRR requirement for variable renewable energies because of forecast errors
+    Exigence des réserves supplémentaires pour les technologies renouvelables variables en raison d'erreurs de prévision
+
+s_capex :
+    Domain : Storage Technologies (str).
+    Charging related annuity of storage in M€/GW/year
+
+s_opex :
+    Domain : Storage Technologies (str).
+    Charging related fOM of storage in M€/GW/year
+
+str_annuities_elec_new :
+    Domain : Storage Technologies (str).
+    Annualized energy capex cost of storage technologies in M€/GWh/year
+    Coût d'investissement annualisé proportionnel à l’énergie des technologies de stockage en M€/GW/an
+
+vre_profiles2006new :
+    Domain : Variable renewable energies, All hours in the model (vre,h).
+    Production profiles of VRE
+    Production par heure pour chaque technologie renouvelable. Ces données proviennent du site renewables.ninja
+
+vO&M_elec_new :
+    Domain : All Technologies (tec).
+    Variable operation and maintenance costs in M€/GWh
+    Coûts variables de maintenance et d'exploitation sur une année en M€/GWh
